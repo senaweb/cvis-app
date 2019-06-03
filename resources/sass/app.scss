@@ -1,0 +1,67 @@
+// Fonts
+// @import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import "variables";
+
+// Bootstrap
+@import "~bootstrap/scss/bootstrap";
+
+// Font Awesome
+@import "~@fortawesome/fontawesome-free/css/all";
+
+// Theme
+.form-control-borderless {
+    border: none;
+}
+
+.form-control-borderless:hover,
+.form-control-borderless:active,
+.form-control-borderless:focus {
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
+
+.centered {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -50px;
+    margin-left: -100px;
+}
+.position-exactly-center {
+    padding-top: 25%;
+}
+
+.position-in-between-top-center {
+    padding-top: 14%;
+}
+
+.hide-btn-default-style {
+    padding: 0;
+    border: none;
+    background: none;
+    cursor: pointer;
+    &:hover {
+        text-decoration: underline;
+    }
+    &:focus {
+        outline: none;
+    }
+}
+
+.search-field {
+    // width: 30%;
+    width: 15%;
+}
+
+.permission-checkboxes > label {
+    margin-left: 0 !important;
+    margin-right: 1.85rem;
+}
+
+.my-6 {
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+}
